@@ -26,7 +26,8 @@ Robot c3po = new Robot();
 			// 2. Move the robot 200 pixels
 	        c3po.move(i);
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 
-	        
+	        c3po.setRandomPenColor();
+
 			// 6. Turn the robot the amount in your angle variable
 	c3po.turn(360/5);
 			// 11. Turn the robot one more degree
